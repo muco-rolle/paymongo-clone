@@ -1,1 +1,10 @@
-export const HomeView = () => <h1>Home View</h1>;
+import styled from 'styled-components';
+import { MainBanner } from 'components';
+
+export const HomeView = () => (
+    <StyledHomeView>
+        <MainBanner />
+    </StyledHomeView>
+);
+
+const StyledHomeView = styled.div``;
